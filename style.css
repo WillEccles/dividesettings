@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
+
+html, body {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.optionTitle {
+	font-family: "Play", sans-serif;
+	font-size: 300%;
+}
+
+.colorPicker {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 90%;
+	height: 300px;
+	background-color: lightgray;
+	display: block;
+	overflow-y: scroll;
+}
+
+.color {
+	margin: 0;
+	width: 20%;
+	padding: 0;
+	display: inline-block;
+	height: 100px;
+}
+
+.buttonContainer {
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: black;
+	font-family: "Play", sans-serif;
+	font-size: 400%;
+}
+
+.saveButton {
+	border-bottom: 1px solid black;
+}

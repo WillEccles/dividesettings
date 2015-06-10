@@ -76,5 +76,5 @@ function defaults() {
 
 function save() {
 	// return to pebble with settings stored to parse later
-	document.location.href = "pebblejs://close#" + encodeURIComponent("BG|" + BGColor.toString() + "|T|" + TColor.toString() + "|B|" + BColor.toString());
+	document.location.href = "pebblejs://close#" + encodeURIComponent("BG|" + colors[BGColor].toString().replace("#","") + "|T|" + colors[TColor].toString().replace("#", "") + "|B|" + colors[BColor].toString().replace("#", ""));
 }
